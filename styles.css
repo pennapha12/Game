@@ -1,0 +1,55 @@
+body {
+    background-image: url('C:/jiksor_game/adventure-2528477_1280.jpg'); /* Update with your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 10;
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+
+#puzzleCanvas {
+    border: 10px solid #000;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 5);
+    width: 100%; /* ตั้งค่าความกว้างของกรอบ */
+    height: 100%; /* ให้ความสูงปรับตามอัตราส่วนของภาพ */
+}
+
+.controls {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="number"] {
+    font-size: 20px; /* เพิ่มขนาดฟอนต์ */
+    padding: 30px; /* เพิ่ม padding */
+    margin: 30px; /* เพิ่ม margin */
+    width: 100px; /* กำหนดความกว้าง */
+}
+button {
+    background-color: #ffcc00;
+    border: none;
+    color: #000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 6px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #ff9900;
+    transform: scale(1.1);
+}
+
+#solution {
+    margin-top: 20px;
+    text-align: center;
+}
