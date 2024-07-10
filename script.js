@@ -1,10 +1,10 @@
 const canvas = document.getElementById('puzzleCanvas');
 const ctx = canvas.getContext('2d');
 const images = [
-    { src: 'images/7R6A5961.jpg', title: 'ผศ.ดร.สุกัญญา เรืองสุวรรณ หัวหน้าสาขาวิชาสถิติ' },
-    { src: 'images/7R6A5940.jpg', title: 'อ.ดร.จิตรจิรา ไชยฤทธิ์ อาจารย์ที่ปรึกษานักศึกษาวิชาเอกสถิติศาสตร์ ชั้นปีที่ 1' },
-    { src: 'images/7R6A5926.jpg', title: 'ผศ.ดร.วรรณพร จันโทภาส ประธานวิชาเอกสถิติศาสตร์ อาจารย์ที่ปรึกษานักศึกษาวิชาเอกสถิติศาสตร์ ชั้นปีที่ 1' },
-    { src: 'images/7R6A6044.jpg', title: 'รศ.ดร.วิชุดา ไชยศิวามงคล อาจารย์ที่ปรึกษานักศึกษาวิชาเอกสารสนเทศสถิติและวิทยาการข้อมูล ชั้นปีที่ 1' }
+    { src: 'https://github.com/pennapha12/Game/blob/main/7R6A5961.jpg?raw=true', title: 'ผศ.ดร.สุกัญญา เรืองสุวรรณ หัวหน้าสาขาวิชาสถิติ' },
+    { src: 'https://github.com/pennapha12/Game/blob/main/7R6A5940.jpg?raw=true', title: 'อ.ดร.จิตรจิรา ไชยฤทธิ์ อาจารย์ที่ปรึกษานักศึกษาวิชาเอกสถิติศาสตร์ ชั้นปีที่ 1' },
+    { src: 'https://github.com/pennapha12/Game/blob/main/7R6A5926.jpg?raw=true', title: 'ผศ.ดร.วรรณพร จันโทภาส ประธานวิชาเอกสถิติศาสตร์ อาจารย์ที่ปรึกษานักศึกษาวิชาเอกสถิติศาสตร์ ชั้นปีที่ 1' },
+    { src: 'https://github.com/pennapha12/Game/blob/main/7R6A6044.jpg?raw=true', title: 'รศ.ดร.วิชุดา ไชยศิวามงคล อาจารย์ที่ปรึกษานักศึกษาวิชาเอกสารสนเทศสถิติและวิทยาการข้อมูล ชั้นปีที่ 1' }
 ];
 
 let currentImageIndex = 0;
